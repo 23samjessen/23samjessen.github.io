@@ -229,6 +229,12 @@ html[data-theme="dark"] .hero {
   color: var(--accent);
 }
 
+.profile-heading {
+  margin: 16px 0 8px;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
 .hero-summary,
 .info-card p,
 .letter-card p,
@@ -596,3 +602,4 @@ html[data-theme="dark"] .private-badge {
 .access-flow-card li {
   margin-bottom: 8px;
 }
+

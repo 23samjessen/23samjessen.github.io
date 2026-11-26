@@ -22,6 +22,7 @@ export class CVRenderer {
           <span class="eyebrow">${c.hero.eyebrow}</span>
           <h1>${c.site_title}</h1>
           <p class="hero-title">${c.hero.title}</p>
+          <h2 class="profile-heading">${c.hero.profile_heading}</h2>
           <p class="hero-summary">${c.hero.summary}</p>
           ${c.hero.badge ? `<p class="availability-badge">${c.hero.badge}</p>` : ""}
 
@@ -110,7 +111,7 @@ export class CVRenderer {
         <div class="split-grid align-start">
           <div class="card-grid">
             <article class="info-card">
-              <h3>Governance</h3>
+              <h3>Governance, Risk &amp; Compliance</h3>
               <div class="tag-list">${chipList(s.governance)}</div>
             </article>
             <article class="info-card">
@@ -243,3 +244,4 @@ export class CVRenderer {
     ].join("");
   }
 }
+

@@ -1,10 +1,10 @@
 export const siteData = {
   "en": {
-    "meta_title": "Sam Jessen | Online CV",
-    "meta_description": "Online CV for Sam Jessen – IT infrastructure and cybersecurity professional.",
+    "meta_title": "Sam Jessen | Cybersecurity & GRC",
+    "meta_description": "Sam Jessen — Cyber Security MSc student with Hitachi Rail experience in vulnerability assessment, risk documentation, control mapping and remediation follow-up.",
     "site_title": "Sam Jessen",
     "nav": {
-      "about": "About",
+      "about": "Profile",
       "experience": "Experience",
       "education": "Education",
       "skills": "Skills",
@@ -19,10 +19,11 @@ export const siteData = {
       "theme": "Theme"
     },
     "hero": {
-      "eyebrow": "Available for full-time work",
-      "title": "IT infrastructure and cybersecurity professional",
-      "summary": "Early-career IT infrastructure and cybersecurity professional with hands-on experience in vulnerability validation, remediation planning, compliance support, and security reporting in enterprise environments. I am completing a B.Sc. in Computer Science (Network & Cybersecurity Engineering), and at Hitachi Rail Denmark I have gained practical exposure to railway systems and secure operations in the Banedanmark lab environment.",
-      "badge": ""
+      "eyebrow": "Junior cybersecurity & GRC",
+      "title": "Cybersecurity, governance, risk & compliance",
+      "summary": "Cyber Security MSc student at Aalborg University and Computer Science graduate from Linnaeus University, specialising in network and cybersecurity. My Hitachi Rail internship combined practical vulnerability assessment with risk documentation, security control mapping and remediation follow-up in a railway environment. I have worked with ISO/IEC 27001/27002 and NIS2, maintained traceable assessment evidence and collaborated with engineers to prioritise findings and verify fixes. I am seeking a junior cybersecurity or GRC role where I can support risk management, compliance and security assurance while building on my technical background.",
+      "badge": "",
+      "profile_heading": "Profile"
     },
     "contact": {
       "heading": "Contact",
@@ -36,9 +37,9 @@ export const siteData = {
     "sections": {
       "strengths": "What I bring",
       "strength_list": [
-        "Hands-on experience from Hitachi Rail Denmark in penetration testing, vulnerability validation, remediation planning, documentation, and compliance support.",
-        "Railway-sector exposure through work in the Banedanmark lab environment and awareness training related to cybersecurity and railway systems.",
-        "Practical background in IT support, Power BI-based analysis, and structured reporting for technical and non-technical stakeholders."
+        "Traceable evidence and verification: Clear assessment records and targeted retests to verify fixes.",
+        "Risk and security control mapping: Connect findings to relevant controls and follow up on remediation.",
+        "Collaboration and security awareness: Explain findings clearly and contribute to awareness activities."
       ],
       "experience": "Professional experience",
       "education": "Education",
@@ -52,14 +53,15 @@ export const siteData = {
         "location": "Copenhagen, Denmark",
         "role": "Cybersecurity Intern",
         "company": "Hitachi Rail Denmark",
-        "highlight": "Internship focused on penetration testing, vulnerability validation, remediation planning, and compliance support.",
+        "highlight": "Technical vulnerability assessment in a controlled railway environment, with risk documentation, traceable evidence and compliance follow-up.",
         "bullets": [
-          "Validated vulnerabilities and performed targeted security testing to confirm exploitability, business impact, and compliance gaps.",
-          "Developed remediation plans using CVSS scoring, asset criticality, and applicable security requirements.",
-          "Coordinated patching and hardening with system owners and re-tested controls to verify closure and risk reduction.",
-          "Produced security documentation and reports for technical and non-technical stakeholders.",
-          "Supported security assessments and compliance work aligned with ISO/IEC 27001, ISO/IEC 27002, and NIS2-related requirements.",
-          "Built railway-domain understanding through work in the Banedanmark lab environment and awareness training on cybersecurity and railway systems."
+          "Verified scanner-reported vulnerabilities through non-destructive checks in a controlled railway laboratory and documented supporting evidence.",
+          "Prioritised findings using CVSS, asset criticality and operational impact to support practical remediation planning.",
+          "Contributed to IT risk documentation and mapped findings to ISO/IEC 27001, ISO/IEC 27002 and NIS2 requirements.",
+          "Recorded assessment evidence, remediation recommendations and retest results in Polarion to support traceability and compliance follow-up.",
+          "Worked with engineers to explain findings, clarify testing limitations and follow up on outstanding remediation actions.",
+          "Performed targeted retests and reviewed updated evidence to verify fixes and document remaining issues.",
+          "Prepared security-awareness presentations and participated in internal and external phishing simulations with the cybersecurity team."
         ]
       },
       {
@@ -101,7 +103,14 @@ export const siteData = {
     ],
     "education": [
       {
-        "period": "08/2023 - 05/2026",
+        "period": "09/2026 - Present",
+        "location": "Copenhagen, Denmark",
+        "title": "MSc in Engineering, Cyber Security",
+        "institution": "Aalborg University",
+        "details": "Current studies: Network Security; Fundamentals of Security and Cryptography; Security in IoT and Cloud Architectures; Dilemmas in Cyber Security."
+      },
+      {
+        "period": "08/2023 - 06/2026",
         "location": "Sweden",
         "title": "B.Sc. in Computer Science (Network & Cybersecurity Engineering)",
         "institution": "Linnaeus University",
@@ -117,12 +126,16 @@ export const siteData = {
     ],
     "skills": {
       "governance": [
-        "Vulnerability validation",
         "Risk assessment",
-        "Remediation planning",
-        "Security governance",
-        "ISO 27001/27002",
-        "NIS2 awareness",
+        "ISO/IEC 27001/27002",
+        "NIS2 control mapping",
+        "Security control assessment",
+        "Compliance evidence",
+        "Risk documentation",
+        "Remediation tracking",
+        "Control verification",
+        "Stakeholder coordination",
+        "Security awareness",
         "GDPR awareness"
       ],
       "infrastructure": [
@@ -136,6 +149,9 @@ export const siteData = {
         "Role-based access control"
       ],
       "operations": [
+        "Polarion",
+        "Nmap",
+        "OpenSSL",
         "Microsoft Sentinel",
         "Splunk",
         "Wireshark",
@@ -164,10 +180,10 @@ export const siteData = {
       "title": "General motivation letter",
       "intro": "Dear Hiring Team,",
       "paragraphs": [
-        "I am applying because I want to build my career in environments where IT, infrastructure, security, and operations work closely together. What motivates me most is work that has real operational impact and requires both technical understanding and structured collaboration.",
-        "Through my internship at Hitachi Rail Denmark, I have worked with penetration testing, vulnerability validation, remediation planning, documentation, and compliance-related tasks. That experience has strengthened my ability to work systematically, communicate clearly with different stakeholders, and contribute in settings where reliability and quality matter.",
-        "I am especially motivated by roles where I can combine cybersecurity knowledge with practical infrastructure, reporting, process improvement, and teamwork. I learn quickly, take responsibility for my tasks, and enjoy contributing in environments that value structure, curiosity, and continuous development.",
-        "I would welcome the opportunity to contribute with my technical background, my railway-sector exposure, and my strong interest in secure and well-run systems."
+        "I am seeking a junior cybersecurity or GRC role where I can connect technical findings with business risks, security requirements and practical improvements. I enjoy understanding how processes work, asking questions and following actions through to completion.",
+        "During my internship at Hitachi Rail Denmark, I verified vulnerabilities in a controlled railway laboratory, prioritised findings and documented evidence, remediation recommendations and retest results in Polarion. I also contributed to risk documentation and mapped findings to ISO/IEC 27001, ISO/IEC 27002 and NIS2 requirements.",
+        "Working with engineers and the cybersecurity team strengthened my ability to explain findings, clarify technical limitations and coordinate follow-up. Security-awareness presentations and phishing simulations also helped me understand the importance of involving people in security improvements.",
+        "I am now studying Cyber Security at Aalborg University after completing my Computer Science degree at Linnaeus University. I would welcome the opportunity to contribute my technical background, structured approach and willingness to learn while developing further in governance, risk, compliance and security assurance."
       ],
       "signoff": "Best regards,\nSam Jessen"
     },
@@ -228,11 +244,11 @@ export const siteData = {
     }
   },
   "da": {
-    "meta_title": "Sam Jessen | Online CV",
-    "meta_description": "Online-CV for Sam Jessen – profil inden for IT-infrastruktur og cybersikkerhed.",
+    "meta_title": "Sam Jessen | Cybersecurity & GRC",
+    "meta_description": "Sam Jessen — kandidatstuderende i cybersikkerhed med erfaring fra Hitachi Rail inden for sårbarhedsvurdering, risici, compliance og opfølgning på afhjælpning.",
     "site_title": "Sam Jessen",
     "nav": {
-      "about": "Om mig",
+      "about": "Profil",
       "experience": "Erfaring",
       "education": "Uddannelse",
       "skills": "Kompetencer",
@@ -247,10 +263,11 @@ export const siteData = {
       "theme": "Tema"
     },
     "hero": {
-      "eyebrow": "Tilgængelig til fuldtidsarbejde",
-      "title": "Profil inden for IT-infrastruktur og cybersikkerhed",
-      "summary": "Profil inden for IT-infrastruktur og cybersikkerhed med praktisk erfaring i validering af sårbarheder, planlægning af afhjælpning, compliance-støtte og sikkerhedsrapportering i enterprise-miljøer. Jeg er ved at afslutte en B.Sc. i Computer Science (Network & Cybersecurity Engineering), og hos Hitachi Rail Denmark har jeg opnået praktisk indsigt i jernbanesystemer og sikre operationer i Banedanmarks labmiljø.",
-      "badge": ""
+      "eyebrow": "Juniorprofil inden for cybersikkerhed og GRC",
+      "title": "Cybersikkerhed, governance, risiko og compliance",
+      "summary": "Jeg læser en kandidatuddannelse i cybersikkerhed på Aalborg Universitet og har en bachelor i datalogi fra Linnéuniversitetet med speciale i netværk og cybersikkerhed. Under mit praktikophold hos Hitachi Rail kombinerede jeg tekniske sårbarhedsvurderinger med risikodokumentation, kortlægning af sikkerhedskontroller og opfølgning på afhjælpning i et jernbanemiljø. Jeg har arbejdet med ISO/IEC 27001/27002 og NIS2, samlet sporbar dokumentation og samarbejdet med ingeniører om at prioritere fund og verificere rettelser. Jeg søger en juniorstilling inden for cybersikkerhed eller GRC, hvor jeg kan understøtte risikostyring, compliance og kontrol af sikkerhedsforanstaltninger med afsæt i min tekniske baggrund.",
+      "badge": "",
+      "profile_heading": "Profil"
     },
     "contact": {
       "heading": "Kontakt",
@@ -264,9 +281,9 @@ export const siteData = {
     "sections": {
       "strengths": "Det bringer jeg med mig",
       "strength_list": [
-        "Praktisk erfaring fra Hitachi Rail Denmark med penetration testing, validering af sårbarheder, planlægning af afhjælpning, dokumentation og compliance-støtte.",
-        "Indsigt i jernbanesektoren gennem arbejde i Banedanmarks labmiljø og interne awareness-forløb om cybersikkerhed og jernbanesystemer.",
-        "Praktisk baggrund i IT-support, Power BI-baseret analyse og struktureret rapportering til både tekniske og ikke-tekniske interessenter."
+        "Sporbar dokumentation og verifikation: Tydelig dokumentation af vurderinger og målrettede gentest af rettelser.",
+        "Risici og sikkerhedskontroller: Kobler fund til relevante kontroller og følger op på afhjælpning.",
+        "Samarbejde og sikkerhedsbevidsthed: Forklarer fund tydeligt og bidrager til aktiviteter om sikkerhedsbevidsthed."
       ],
       "experience": "Erhvervserfaring",
       "education": "Uddannelse",
@@ -280,14 +297,15 @@ export const siteData = {
         "location": "København, Danmark",
         "role": "Cybersecurity Intern",
         "company": "Hitachi Rail Denmark",
-        "highlight": "Praktik med fokus på penetration testing, validering af sårbarheder, planlægning af afhjælpning og compliance-støtte.",
+        "highlight": "Tekniske sårbarhedsvurderinger i et kontrolleret jernbanemiljø med fokus på risici, sporbar dokumentation og opfølgning på compliance.",
         "bullets": [
-          "Validerede sårbarheder og gennemførte målrettede sikkerhedstests for at bekræfte udnyttelighed, forretningspåvirkning og compliance-gap.",
-          "Udarbejdede afhjælpningsplaner med udgangspunkt i CVSS-scoring, aktivkritikalitet og relevante sikkerhedskrav.",
-          "Koordinerede patching og hardening med systemejere og retestede kontroller for at verificere lukning og risikoreduktion.",
-          "Udarbejdede sikkerhedsdokumentation og rapporter til tekniske og ikke-tekniske interessenter.",
-          "Støttede sikkerhedsvurderinger og compliance-arbejde i relation til ISO/IEC 27001, ISO/IEC 27002 og NIS2-relaterede krav.",
-          "Opbyggede domæneforståelse inden for jernbane gennem arbejde i Banedanmarks labmiljø samt awareness-træning om cybersikkerhed og jernbanesystemer."
+          "Verificerede scannerrapporterede sårbarheder med ikke-destruktive kontroller i et kontrolleret jernbanelaboratorium og dokumenterede resultaterne.",
+          "Prioriterede fund ud fra CVSS, IT-aktivernes kritikalitet og påvirkningen af driften som grundlag for praktisk planlægning af afhjælpning.",
+          "Bidrog til dokumentation af IT-risici og kortlagde fund i forhold til kravene i ISO/IEC 27001, ISO/IEC 27002 og NIS2.",
+          "Registrerede dokumentation fra vurderinger, anbefalinger til afhjælpning og resultater af gentest i Polarion for at understøtte sporbarhed og opfølgning på compliance.",
+          "Samarbejdede med ingeniører om at forklare fund, tydeliggøre testbegrænsninger og følge op på udestående afhjælpningstiltag.",
+          "Gennemførte målrettede gentest og gennemgik opdateret dokumentation for at verificere rettelser og dokumentere resterende problemer.",
+          "Udarbejdede præsentationer om sikkerhedsbevidsthed og deltog i interne og eksterne phishingsimuleringer sammen med cybersikkerhedsteamet."
         ]
       },
       {
@@ -329,7 +347,14 @@ export const siteData = {
     ],
     "education": [
       {
-        "period": "08/2023 - 05/2026",
+        "period": "09/2026 - nu",
+        "location": "København, Danmark",
+        "title": "MSc in Engineering, Cyber Security",
+        "institution": "Aalborg Universitet",
+        "details": "Aktuelle fag: Network Security; Fundamentals of Security and Cryptography; Security in IoT and Cloud Architectures; Dilemmas in Cyber Security."
+      },
+      {
+        "period": "08/2023 - 06/2026",
         "location": "Sverige",
         "title": "B.Sc. i Computer Science (Network & Cybersecurity Engineering)",
         "institution": "Linnaeus University",
@@ -345,13 +370,17 @@ export const siteData = {
     ],
     "skills": {
       "governance": [
-        "Validering af sårbarheder",
         "Risikovurdering",
-        "Planlægning af afhjælpning",
-        "Security governance",
-        "ISO 27001/27002",
-        "NIS2-awareness",
-        "GDPR-awareness"
+        "ISO/IEC 27001/27002",
+        "Kortlægning af NIS2-kontroller",
+        "Vurdering af sikkerhedskontroller",
+        "Compliance-dokumentation",
+        "Risikodokumentation",
+        "Opfølgning på afhjælpning",
+        "Verifikation af kontroller",
+        "Koordinering med interessenter",
+        "Sikkerhedsbevidsthed",
+        "Kendskab til GDPR"
       ],
       "infrastructure": [
         "Linux administration",
@@ -364,6 +393,9 @@ export const siteData = {
         "Role-based access control"
       ],
       "operations": [
+        "Polarion",
+        "Nmap",
+        "OpenSSL",
         "Microsoft Sentinel",
         "Splunk",
         "Wireshark",
@@ -392,10 +424,10 @@ export const siteData = {
       "title": "Generel motiveret ansøgning",
       "intro": "Kære ansættelsesteam,",
       "paragraphs": [
-        "Jeg søger, fordi jeg gerne vil bygge min karriere i miljøer, hvor IT, infrastruktur, sikkerhed og drift arbejder tæt sammen. Det, der motiverer mig mest, er opgaver med reel driftsmæssig betydning, hvor der er brug for både teknisk forståelse og struktureret samarbejde.",
-        "Gennem min praktik hos Hitachi Rail Denmark har jeg arbejdet med penetration testing, validering af sårbarheder, planlægning af afhjælpning, dokumentation og compliance-relaterede opgaver. Den erfaring har styrket min evne til at arbejde systematisk, kommunikere klart med forskellige interessenter og bidrage i miljøer, hvor driftssikkerhed og kvalitet er afgørende.",
-        "Jeg er særligt motiveret af roller, hvor jeg kan kombinere min viden om cybersikkerhed med praktisk infrastruktur, rapportering, procesforbedring og samarbejde. Jeg lærer hurtigt, tager ansvar for mine opgaver og trives i miljøer, der værdsætter struktur, nysgerrighed og faglig udvikling.",
-        "Jeg vil gerne bidrage med min tekniske baggrund, min indsigt i jernbanesektoren og min store interesse for sikre og velfungerende systemer."
+        "Jeg søger en juniorstilling inden for cybersikkerhed eller GRC, hvor jeg kan koble tekniske fund til forretningsrisici, sikkerhedskrav og praktiske forbedringer. Jeg motiveres af at forstå, hvordan processer fungerer, stille spørgsmål og følge opgaver til dørs.",
+        "Under min praktik hos Hitachi Rail Denmark verificerede jeg sårbarheder i et kontrolleret jernbanelaboratorium, prioriterede fund og dokumenterede resultater, anbefalinger til afhjælpning og gentest i Polarion. Jeg bidrog også til risikodokumentation og kortlagde fund i forhold til ISO/IEC 27001, ISO/IEC 27002 og NIS2.",
+        "Samarbejdet med ingeniører og cybersikkerhedsteamet styrkede min evne til at forklare fund, tydeliggøre tekniske begrænsninger og koordinere opfølgning. Præsentationer om sikkerhedsbevidsthed og phishingsimuleringer gav mig også indsigt i betydningen af at inddrage medarbejderne i sikkerhedsforbedringer.",
+        "Jeg læser nu Cyber Security på Aalborg Universitet efter at have afsluttet min bachelor i datalogi på Linnéuniversitetet. Jeg vil gerne bidrage med min tekniske baggrund, strukturerede tilgang og lyst til at lære, mens jeg udvikler mig inden for governance, risikostyring, compliance og kontrol af sikkerhedsforanstaltninger."
       ],
       "signoff": "Med venlig hilsen,\nSam Jessen"
     },
@@ -456,11 +488,11 @@ export const siteData = {
     }
   },
   "sv": {
-    "meta_title": "Sam Jessen | Online CV",
-    "meta_description": "Online-CV för Sam Jessen – profil inom IT-infrastruktur och cybersäkerhet.",
+    "meta_title": "Sam Jessen | Cybersecurity & GRC",
+    "meta_description": "Sam Jessen — masterstudent i cybersäkerhet med erfarenhet från Hitachi Rail inom sårbarhetsbedömning, risker, regelefterlevnad och åtgärdsuppföljning.",
     "site_title": "Sam Jessen",
     "nav": {
-      "about": "Om mig",
+      "about": "Profil",
       "experience": "Erfarenhet",
       "education": "Utbildning",
       "skills": "Kompetenser",
@@ -475,10 +507,11 @@ export const siteData = {
       "theme": "Tema"
     },
     "hero": {
-      "eyebrow": "Tillgänglig för heltidsarbete",
-      "title": "Profil inom IT-infrastruktur och cybersäkerhet",
-      "summary": "Profil inom IT-infrastruktur och cybersäkerhet med praktisk erfarenhet av sårbarhetsvalidering, planering av åtgärder, compliance-stöd och säkerhetsrapportering i enterprise-miljöer. Jag avslutar en B.Sc. i Computer Science (Network & Cybersecurity Engineering), och på Hitachi Rail Denmark har jag fått praktisk inblick i järnvägssystem och säkra operationer i Banedanmarks labbmiljö.",
-      "badge": ""
+      "eyebrow": "Junior inom cybersäkerhet och GRC",
+      "title": "Cybersäkerhet, styrning, risk och regelefterlevnad",
+      "summary": "Jag studerar en master i cybersäkerhet vid Aalborg Universitet och har en kandidatexamen i datavetenskap från Linnéuniversitetet med inriktning mot nätverk och cybersäkerhet. Under min praktik hos Hitachi Rail kombinerade jag tekniska sårbarhetsbedömningar med riskdokumentation, kartläggning av säkerhetskontroller och uppföljning av åtgärder i en järnvägsmiljö. Jag har arbetat med ISO/IEC 27001/27002 och NIS2, sammanställt spårbar dokumentation och samarbetat med ingenjörer för att prioritera fynd och verifiera rättningar. Jag söker en juniorroll inom cybersäkerhet eller GRC där jag kan stödja riskhantering, regelefterlevnad och granskning av säkerhetsåtgärder med min tekniska bakgrund som grund.",
+      "badge": "",
+      "profile_heading": "Profil"
     },
     "contact": {
       "heading": "Kontakt",
@@ -492,9 +525,9 @@ export const siteData = {
     "sections": {
       "strengths": "Det har jag med mig",
       "strength_list": [
-        "Praktisk erfarenhet från Hitachi Rail Denmark inom penetration testing, sårbarhetsvalidering, planering av åtgärder, dokumentation och compliance-stöd.",
-        "Inblick i järnvägssektorn genom arbete i Banedanmarks labbmiljö och awareness-utbildningar om cybersäkerhet och järnvägssystem.",
-        "Praktisk bakgrund inom IT-support, Power BI-baserad analys och strukturerad rapportering till både tekniska och icke-tekniska intressenter."
+        "Spårbar dokumentation och verifiering: Tydliga bedömningsunderlag och riktade omtester för att verifiera rättningar.",
+        "Risker och säkerhetskontroller: Kopplar fynd till relevanta kontroller och följer upp åtgärder.",
+        "Samarbete och säkerhetsmedvetenhet: Förklarar fynd tydligt och bidrar till aktiviteter för ökad säkerhetsmedvetenhet."
       ],
       "experience": "Yrkeserfarenhet",
       "education": "Utbildning",
@@ -508,14 +541,15 @@ export const siteData = {
         "location": "Köpenhamn, Danmark",
         "role": "Cybersecurity Intern",
         "company": "Hitachi Rail Denmark",
-        "highlight": "Praktik med fokus på penetration testing, sårbarhetsvalidering, planering av åtgärder och compliance-stöd.",
+        "highlight": "Tekniska sårbarhetsbedömningar i en kontrollerad järnvägsmiljö med fokus på risker, spårbar dokumentation och uppföljning av regelefterlevnad.",
         "bullets": [
-          "Validerade sårbarheter och genomförde riktade säkerhetstester för att bekräfta exploaterbarhet, affärspåverkan och compliance-gap.",
-          "Tog fram åtgärdsplaner baserade på CVSS-score, tillgångskritikalitet och relevanta säkerhetskrav.",
-          "Koordinerade patchning och hardening med systemägare och retestade kontroller för att verifiera stängning och riskreduktion.",
-          "Producerade säkerhetsdokumentation och rapporter för tekniska och icke-tekniska intressenter.",
-          "Stödde säkerhetsbedömningar och compliance-arbete kopplat till ISO/IEC 27001, ISO/IEC 27002 och NIS2-relaterade krav.",
-          "Byggde domänförståelse inom järnväg genom arbete i Banedanmarks labbmiljö samt awareness-utbildning kring cybersäkerhet och järnvägssystem."
+          "Verifierade skannerrapporterade sårbarheter genom icke-destruktiva kontroller i ett kontrollerat järnvägslaboratorium och dokumenterade resultaten.",
+          "Prioriterade fynd utifrån CVSS, IT-tillgångarnas kritikalitet och påverkan på verksamheten som stöd för praktisk åtgärdsplanering.",
+          "Bidrog till dokumentation av IT-risker och kartlade fynd mot kraven i ISO/IEC 27001, ISO/IEC 27002 och NIS2.",
+          "Dokumenterade bedömningsunderlag, åtgärdsförslag och resultat från omtester i Polarion för att stödja spårbarhet och uppföljning av regelefterlevnad.",
+          "Samarbetade med ingenjörer för att förklara fynd, klargöra testernas begränsningar och följa upp utestående åtgärder.",
+          "Genomförde riktade omtester och granskade uppdaterat underlag för att verifiera rättningar och dokumentera kvarstående problem.",
+          "Tog fram presentationer om säkerhetsmedvetenhet och deltog i interna och externa nätfiskesimuleringar tillsammans med cybersäkerhetsteamet."
         ]
       },
       {
@@ -557,7 +591,14 @@ export const siteData = {
     ],
     "education": [
       {
-        "period": "08/2023 - 05/2026",
+        "period": "09/2026 - pågående",
+        "location": "Köpenhamn, Danmark",
+        "title": "MSc in Engineering, Cyber Security",
+        "institution": "Aalborg Universitet",
+        "details": "Aktuella kurser: Network Security; Fundamentals of Security and Cryptography; Security in IoT and Cloud Architectures; Dilemmas in Cyber Security."
+      },
+      {
+        "period": "08/2023 - 06/2026",
         "location": "Sverige",
         "title": "B.Sc. i Computer Science (Network & Cybersecurity Engineering)",
         "institution": "Linnaeus University",
@@ -573,13 +614,17 @@ export const siteData = {
     ],
     "skills": {
       "governance": [
-        "Sårbarhetsvalidering",
         "Riskbedömning",
-        "Planering av åtgärder",
-        "Security governance",
-        "ISO 27001/27002",
-        "NIS2-awareness",
-        "GDPR-awareness"
+        "ISO/IEC 27001/27002",
+        "Kartläggning av NIS2-kontroller",
+        "Bedömning av säkerhetskontroller",
+        "Underlag för regelefterlevnad",
+        "Riskdokumentation",
+        "Åtgärdsuppföljning",
+        "Verifiering av kontroller",
+        "Samordning med intressenter",
+        "Säkerhetsmedvetenhet",
+        "Grundläggande GDPR-kunskap"
       ],
       "infrastructure": [
         "Linux administration",
@@ -592,6 +637,9 @@ export const siteData = {
         "Role-based access control"
       ],
       "operations": [
+        "Polarion",
+        "Nmap",
+        "OpenSSL",
         "Microsoft Sentinel",
         "Splunk",
         "Wireshark",
@@ -620,10 +668,10 @@ export const siteData = {
       "title": "Generellt motivationsbrev",
       "intro": "Hej rekryteringsteam,",
       "paragraphs": [
-        "Jag söker eftersom jag vill bygga min karriär i miljöer där IT, infrastruktur, säkerhet och drift arbetar nära varandra. Det som motiverar mig mest är roller med verklig operativ betydelse där det behövs både teknisk förståelse och strukturerat samarbete.",
-        "Genom min praktik på Hitachi Rail Denmark har jag arbetat med penetration testing, sårbarhetsvalidering, planering av åtgärder, dokumentation och compliance-relaterade uppgifter. Den erfarenheten har stärkt min förmåga att arbeta systematiskt, kommunicera tydligt med olika intressenter och bidra i miljöer där driftsäkerhet och kvalitet är viktiga.",
-        "Jag motiveras särskilt av roller där jag kan kombinera min kunskap inom cybersäkerhet med praktisk infrastruktur, rapportering, processförbättring och teamwork. Jag lär mig snabbt, tar ansvar för mina uppgifter och trivs i miljöer som värdesätter struktur, nyfikenhet och kontinuerlig utveckling.",
-        "Jag skulle uppskatta möjligheten att bidra med min tekniska bakgrund, min inblick i järnvägssektorn och mitt stora intresse för säkra och välfungerande system."
+        "Jag söker en juniorroll inom cybersäkerhet eller GRC där jag kan koppla tekniska fynd till verksamhetsrisker, säkerhetskrav och praktiska förbättringar. Jag tycker om att förstå hur processer fungerar, ställa frågor och följa upp åtgärder tills de är genomförda.",
+        "Under min praktik hos Hitachi Rail Denmark verifierade jag sårbarheter i ett kontrollerat järnvägslaboratorium, prioriterade fynd och dokumenterade underlag, åtgärdsförslag och resultat från omtester i Polarion. Jag bidrog också till riskdokumentation och kartlade fynd mot ISO/IEC 27001, ISO/IEC 27002 och NIS2.",
+        "Samarbetet med ingenjörer och cybersäkerhetsteamet stärkte min förmåga att förklara fynd, klargöra tekniska begränsningar och samordna uppföljning. Presentationer om säkerhetsmedvetenhet och nätfiskesimuleringar gav mig också förståelse för vikten av att involvera medarbetare i säkerhetsförbättringar.",
+        "Jag studerar nu Cyber Security vid Aalborg Universitet efter att ha avslutat min kandidatexamen i datavetenskap vid Linnéuniversitetet. Jag vill bidra med min tekniska bakgrund, mitt strukturerade arbetssätt och min vilja att lära, samtidigt som jag utvecklas inom styrning, riskhantering, regelefterlevnad och granskning av säkerhetsåtgärder."
       ],
       "signoff": "Vänliga hälsningar,\nSam Jessen"
     },
