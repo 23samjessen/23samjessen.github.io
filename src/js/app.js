@@ -1,6 +1,6 @@
 
-import { siteData } from "./data/site-data.js";
-import { CVRenderer } from "./renderers/cv-renderer.js";
+import { siteData } from "./data/site-data.js?v=20261126-grc";
+import { CVRenderer } from "./renderers/cv-renderer.js?v=20261126-grc";
 import { MotivationRenderer } from "./renderers/motivation-renderer.js";
 
 function getLocale() {
@@ -88,3 +88,4 @@ function renderPage() {
 }
 
 document.addEventListener("DOMContentLoaded", renderPage);
+
